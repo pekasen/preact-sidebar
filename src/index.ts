@@ -4,6 +4,7 @@ import { ButtonGroup, ButtonGroupMenuItem, IButtonGroupOptions } from "./compone
 import { Card, CardMenuItem } from "./components/panes/Card";
 import { CheckBox } from "./components/panes/Checkbox";
 import { ColorPicker } from "./components/panes/ColorPicker";
+import { Conditional, ConditionalMenuItem } from "./components/panes/Conditional";
 import { Display, DisplayMenuItem } from "./components/panes/Display";
 import { Divider, DividerMenuItem } from "./components/panes/Divider";
 import { DropDown, DropDownMenuItem, IDropDownMenuItemOptions } from "./components/panes/DropDown";
@@ -23,6 +24,8 @@ export {
     IButtonGroupOptions,
     CardMenuItem,
     Card,
+    Conditional,
+    ConditionalMenuItem,
     CheckBox,
     ColorPicker,
     DropDownMenuItem,
